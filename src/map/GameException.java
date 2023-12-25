@@ -1,2 +1,7 @@
-package map;public class GameException {
+package map;
+
+public class GameException extends Exception {
+    public GameException(String message) {
+        super(message);
+    }
 }
